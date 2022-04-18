@@ -30,9 +30,9 @@ html {
   height: 10rem;
 }
 
-.logo_titulo img h1 {
+.logo_titulo h1 {
   color: wheat;
-  background-color: red;
+  text-transform: uppercase;
 }
 
 header {
