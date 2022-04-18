@@ -43,5 +43,22 @@ header {
             text-decoration: none;
             text-transform: uppercase;
         }
+
+        a:hover {
+            background-color: white;
+            color: black;
+        }
     }
+}
+
+.imagenes_inicio {
+    display: grid;
+    grid-template-columns: 13rem 13rem;
+    grid-template-rows: 13rem 13rem 13rem;
+    
+
+    img {
+        height: 10rem;
+    }
+   
 }

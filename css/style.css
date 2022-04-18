@@ -54,4 +54,22 @@ header ul a {
   text-decoration: none;
   text-transform: uppercase;
 }
+
+header ul a:hover {
+  background-color: white;
+  color: black;
+}
+
+.imagenes_inicio {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 13rem 13rem;
+      grid-template-columns: 13rem 13rem;
+  -ms-grid-rows: 13rem 13rem 13rem;
+      grid-template-rows: 13rem 13rem 13rem;
+}
+
+.imagenes_inicio img {
+  height: 10rem;
+}
 /*# sourceMappingURL=style.css.map */
