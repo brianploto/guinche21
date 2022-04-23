@@ -52,13 +52,26 @@ header {
 }
 
 .imagenes_inicio {
-    display: grid;
-    grid-template-columns: 13rem 13rem;
-    grid-template-rows: 13rem 13rem 13rem;
-    
 
+    margin: 2rem 0;
+    
+    
     img {
+        margin: 1rem;
         height: 10rem;
+
+    }
+
+    .primeras_imagenes {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+
+        p {
+            color: wheat;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
     }
    
 }
