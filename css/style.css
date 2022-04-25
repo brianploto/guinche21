@@ -61,28 +61,46 @@ header ul a:hover {
 }
 
 .imagenes_inicio {
-  margin: 2rem 0;
-}
-
-.imagenes_inicio img {
-  margin: 1rem;
-  height: 10rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .imagenes_inicio .primeras_imagenes {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+      -ms-flex-direction: column;
+          flex-direction: column;
   text-align: center;
 }
 
-.imagenes_inicio .primeras_imagenes p {
+.imagenes_inicio .primeras_imagenes div {
+  border: 1px solid black;
+  margin: 5px;
+  width: auto;
+  background-color: black;
+}
+
+.imagenes_inicio .primeras_imagenes div h2 {
   color: wheat;
   font-weight: bold;
   text-transform: uppercase;
+}
+
+.imagenes_inicio .primeras_imagenes div img {
+  width: 300px;
 }
 /*# sourceMappingURL=style.css.map */
