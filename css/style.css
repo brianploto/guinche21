@@ -60,6 +60,62 @@ header ul a:hover {
   color: black;
 }
 
+.productos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 2.4rem 0;
+}
+
+.productos .imagenes_productos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+.productos .imagenes_productos div {
+  margin: 5px;
+  width: 300px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.productos .imagenes_productos div .texto {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: white;
+}
+
+.productos .imagenes_productos div h2 {
+  color: wheat;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: black;
+}
+
+.productos .imagenes_productos div img {
+  width: 300px;
+}
+
 .imagenes_inicio {
   display: -webkit-box;
   display: -ms-flexbox;
