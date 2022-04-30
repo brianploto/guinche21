@@ -91,13 +91,13 @@ header ul a:hover {
   border: 1px solid black;
   margin: 5px;
   width: auto;
-  background-color: black;
 }
 
 .imagenes_inicio .primeras_imagenes div h2 {
   color: wheat;
   font-weight: bold;
   text-transform: uppercase;
+  background-color: black;
 }
 
 .imagenes_inicio .primeras_imagenes div img {
