@@ -74,6 +74,7 @@ header ul a:hover {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin: 2.4rem 0;
 }
 
 .imagenes_inicio .primeras_imagenes {
@@ -88,9 +89,8 @@ header ul a:hover {
 }
 
 .imagenes_inicio .primeras_imagenes div {
-  border: 1px solid black;
   margin: 5px;
-  width: auto;
+  width: 300px;
 }
 
 .imagenes_inicio .primeras_imagenes div h2 {
