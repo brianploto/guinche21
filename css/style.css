@@ -88,21 +88,36 @@ header ul a:hover {
   text-align: center;
 }
 
+.productos .imagenes_productos .gorros_de_lana {
+  position: relative;
+}
+
+.productos .imagenes_productos .gorros_de_lana:hover img {
+  opacity: 0.4;
+}
+
+.productos .imagenes_productos .gorros_de_lana:hover .texto {
+  color: black;
+}
+
+.productos .imagenes_productos .gorros_de_lana .texto {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-transition: .3s all ease;
+  transition: .3s all ease;
+  color: white;
+  font-size: 2rem;
+}
+
 .productos .imagenes_productos div {
   margin: 5px;
   width: 300px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-
-.productos .imagenes_productos div .texto {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  color: white;
 }
 
 .productos .imagenes_productos div h2 {
@@ -114,6 +129,8 @@ header ul a:hover {
 
 .productos .imagenes_productos div img {
   width: 300px;
+  -webkit-transition: .3s all ease;
+  transition: .3s all ease;
 }
 
 .imagenes_inicio {

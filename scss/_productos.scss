@@ -12,19 +12,34 @@
         flex-direction: column;
         text-align: center;
 
-        div {
-            margin: 5px;
-            width: 300px;
-            align-items: center;
+        .gorros_de_lana {
+            position: relative;
+            
+
+            &:hover img {
+                opacity: 0.4;
+                
+            }
+
+            &:hover .texto {
+                color: black;
+            }
 
             .texto {
                 position: absolute;
                 top: 50%;
                 left: 50%;
                 transform: translate(-50%, -50%);
+                transition: .3s all ease;
                 color: white;
+                font-size: 2rem;
+
             }
-           
+        }
+        div {
+            margin: 5px;
+            width: 300px;
+            align-items: center;
         
             h2 {
                 color: wheat;
@@ -36,8 +51,10 @@
     
             img {
                width: 300px;
-        
+               transition: .3s all ease;
             }
+
+            
         }
     }
    
