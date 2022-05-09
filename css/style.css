@@ -88,19 +88,19 @@ header ul a:hover {
   text-align: center;
 }
 
-.productos .imagenes_productos .gorros_de_lana {
+.productos .imagenes_productos .gorros_de_lana, .productos .imagenes_productos .gorras, .productos .imagenes_productos .otros {
   position: relative;
 }
 
-.productos .imagenes_productos .gorros_de_lana:hover img {
+.productos .imagenes_productos .gorros_de_lana:hover img, .productos .imagenes_productos .gorras:hover img, .productos .imagenes_productos .otros:hover img {
   opacity: 0.4;
 }
 
-.productos .imagenes_productos .gorros_de_lana:hover .texto {
+.productos .imagenes_productos .gorros_de_lana:hover .texto a, .productos .imagenes_productos .gorras:hover .texto a, .productos .imagenes_productos .otros:hover .texto a {
   color: black;
 }
 
-.productos .imagenes_productos .gorros_de_lana .texto {
+.productos .imagenes_productos .gorros_de_lana .texto a, .productos .imagenes_productos .gorras .texto a, .productos .imagenes_productos .otros .texto a {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -110,6 +110,8 @@ header ul a:hover {
   transition: .3s all ease;
   color: white;
   font-size: 2rem;
+  text-decoration: none;
+  min-width: 100%;
 }
 
 .productos .imagenes_productos div {
@@ -120,15 +122,9 @@ header ul a:hover {
           align-items: center;
 }
 
-.productos .imagenes_productos div h2 {
-  color: wheat;
-  font-weight: bold;
-  text-transform: uppercase;
-  background-color: black;
-}
-
 .productos .imagenes_productos div img {
   width: 300px;
+  height: 32rem;
   -webkit-transition: .3s all ease;
   transition: .3s all ease;
 }

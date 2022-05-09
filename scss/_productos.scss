@@ -12,7 +12,7 @@
         flex-direction: column;
         text-align: center;
 
-        .gorros_de_lana {
+        .gorros_de_lana, .gorras, .otros {
             position: relative;
             
 
@@ -21,11 +21,11 @@
                 
             }
 
-            &:hover .texto {
+            &:hover .texto a{
                 color: black;
             }
 
-            .texto {
+            .texto a {
                 position: absolute;
                 top: 50%;
                 left: 50%;
@@ -33,24 +33,18 @@
                 transition: .3s all ease;
                 color: white;
                 font-size: 2rem;
-
+                text-decoration: none;
+                min-width: 100%;
             }
         }
         div {
             margin: 5px;
             width: 300px;
             align-items: center;
-        
-            h2 {
-                color: wheat;
-                font-weight: bold;
-                text-transform: uppercase;
-                background-color: black;
-
-            }
     
             img {
                width: 300px;
+               height: 32rem;
                transition: .3s all ease;
             }
 
