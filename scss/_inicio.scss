@@ -1,34 +1,23 @@
 .imagenes_inicio {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 2.4rem 0;
 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 2.4rem 0;
+	div {
+		margin: 5px;
+		width: 300px;
 
+		h2 {
+			color: wheat;
+			font-weight: bold;
+			text-transform: uppercase;
+			background-color: black;
+		}
 
-    .primeras_imagenes {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-
-        div {
-            margin: 5px;
-            width: 300px;
-        
-            h2 {
-                color: wheat;
-                font-weight: bold;
-                text-transform: uppercase;
-                background-color: black;
-
-            }
-    
-            img {
-               width: 300px;
-        
-            }
-        }
-    }
-   
+		img {
+			width: 300px;
+		}
+	}
 }
