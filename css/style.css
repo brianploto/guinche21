@@ -60,6 +60,16 @@ header ul a:hover {
   color: black;
 }
 
+footer {
+  background-color: black;
+  color: wheat;
+  height: 5rem;
+}
+
+footer h3 {
+  font-size: 2rem;
+}
+
 .productos {
   display: -webkit-box;
   display: -ms-flexbox;
