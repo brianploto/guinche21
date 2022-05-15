@@ -144,6 +144,7 @@ header ul a:hover {
       -ms-flex-pack: center;
           justify-content: center;
   margin: 2.4rem 0;
+  text-align: center;
 }
 
 .imagenes_inicio div {
@@ -170,6 +171,10 @@ header ul a:hover {
             flex-direction: row;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
   }
 }
 /*# sourceMappingURL=style.css.map */
