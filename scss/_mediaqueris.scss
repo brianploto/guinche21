@@ -8,6 +8,16 @@
 		align-items: center;
 		text-align: center;
 	}
+
+	.productos {
+		.imagenes_productos {
+			flex-direction: row;
+			flex-wrap: wrap;
+			align-items: center;
+			align-content: center;
+			justify-content: center;
+		}
+	}
 }
 
 @media (min-width: 1024px) {
