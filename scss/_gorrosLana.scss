@@ -1,0 +1,24 @@
+.seccion_lana {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 2.4rem 0;
+	text-align: center;
+
+	article {
+		margin: 5px;
+		width: 300px;
+
+		h2 {
+			color: wheat;
+			font-weight: bold;
+			text-transform: uppercase;
+			background-color: black;
+		}
+
+		img {
+			width: 300px;
+		}
+	}
+}

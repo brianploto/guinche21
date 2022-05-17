@@ -18,6 +18,19 @@
 			justify-content: center;
 		}
 	}
+
+	.seccion_lana {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+
+		.lana {
+			transition: all 0.3s ease;
+		}
+		.lana:hover {
+			transform: scale(1.05);
+		}
+	}
 }
 
 @media (min-width: 1024px) {
