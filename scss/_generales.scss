@@ -52,27 +52,31 @@ footer {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
-	justify-content: center;
+	justify-content: space-around;
 	border-top: solid 1px black;
 	background-color: #f39c12;
 
-	h3 {
-		font-size: 1.3rem;
-		margin: 2rem;
-		color: white;
-		text-transform: uppercase;
-		font-weight: bold;
-	}
-
-	img {
-		color: white;
-		width: 2rem;
-	}
-
 	.instagram,
-	.facebook {
+	.facebook,
+	.whatsapp,
+	.mail {
 		color: white;
 		font-size: 2rem;
 		padding: 1rem;
+		display: flex;
+		text-decoration: none;
+		align-items: center;
+		text-align: center;
+
+		.arrobas {
+			font-size: 1.3rem;
+			margin: 0.5rem;
+			font-weight: bold;
+			text-transform: uppercase;
+		}
+	}
+
+	a {
+		text-decoration: none;
 	}
 }

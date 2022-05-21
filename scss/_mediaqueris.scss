@@ -1,4 +1,13 @@
+@media (max-width: 738px) {
+	.arrobas {
+		display: none;
+	}
+}
+
 @media (min-width: 512px) {
+}
+
+@media (min-width: 570px) {
 }
 
 @media (min-width: 768px) {
@@ -30,6 +39,13 @@
 		.lana:hover {
 			transform: scale(1.05);
 		}
+	}
+
+	.gorras_visera {
+		flex-direction: row;
+		flex-wrap: wrap;
+		align-items: center;
+		text-align: center;
 	}
 }
 
