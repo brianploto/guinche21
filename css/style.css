@@ -246,38 +246,13 @@ footer a {
   width: 300px;
 }
 
-.gorras_visera {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin: 2.4rem 0;
-  text-align: center;
+.contenedores_gorras {
+  height: auto;
 }
 
-.gorras_visera div {
-  margin: 5px;
-  width: 400px;
-}
-
-.gorras_visera div h2 {
-  color: wheat;
-  font-weight: bold;
-  text-transform: uppercase;
-  background-color: black;
-}
-
-.gorras_visera div img {
-  width: 300px;
+.wallacecream,
+.cream_chica {
+  height: auto;
 }
 
 @media (max-width: 738px) {

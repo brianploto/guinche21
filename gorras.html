@@ -4,6 +4,12 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+			crossorigin="anonymous"
+		/>
 		<link rel="stylesheet" href="css/style.css" />
 		<script
 			src="https://kit.fontawesome.com/70658517b8.js"
@@ -30,48 +36,52 @@
 			</nav>
 		</header>
 
-		<section class="gorras_visera">
-			<div class="black_level">
-				<img src="/media/gorras/black-level (1).jpg" alt="" />
-				<h2>BLACK LEVEL</h2>
+		<div
+			id="carouselExampleFade"
+			class="carousel slide carousel-fade"
+			data-bs-ride="carousel"
+		>
+			<div class="carousel-inner contenedores_gorras">
+				<div class="carousel-item active">
+					<img
+						src="media/gorras/wallacecream (2).jpeg"
+						class="d-block w-100 wallacecream"
+						alt="..."
+					/>
+				</div>
+				<div class="carousel-item contenedores_gorras">
+					<img
+						src="media/gorras/wallace_cream_new.jpg"
+						class="d-block w-100 cream_chica"
+						alt="..."
+					/>
+				</div>
 			</div>
-
-			<div class="black_metal">
-				<img src="media/gorras/black_metal (1).jpg" alt="" />
-				<h2>BLACK METAL</h2>
-			</div>
-
-			<div class="industry_bangladesh">
-				<img src="media/gorras/industry_bangladesh.jpg" alt="" />
-				<h2>INDUSTRY BANGLADESH</h2>
-			</div>
-
-			<div class="industry_animal">
-				<img src="media/gorras/industry-animal-gold.jpg" alt="" />
-				<h2>ANIMAL GOLD</h2>
-			</div>
-
-			<div>
-				<img src="media/gorras/smoked_new (2).jpg" alt="" />
-				<h2>SMOKED</h2>
-			</div>
-
-			<div>
-				<img src="media/gorras/wallace_cream_new.jpg" alt="" />
-				<h2>WALLACE CREAM</h2>
-			</div>
-
-			<div>
-				<img src="media/gorras/london_new.jpg" alt="" />
-				<h2>LONDON</h2>
-			</div>
-
-			<div>
-				<img src="media/gorras/madisson_black_&_cream_new.jpg" alt="" />
-				<h2>MADISSON BLACK & CREAM</h2>
-			</div>
-		</section>
-
+			<button
+				class="carousel-control-prev"
+				type="button"
+				data-bs-target="#carouselExampleFade"
+				data-bs-slide="prev"
+			>
+				<span
+					class="carousel-control-prev-icon"
+					aria-hidden="true"
+				></span>
+				<span class="visually-hidden">Previous</span>
+			</button>
+			<button
+				class="carousel-control-next"
+				type="button"
+				data-bs-target="#carouselExampleFade"
+				data-bs-slide="next"
+			>
+				<span
+					class="carousel-control-next-icon"
+					aria-hidden="true"
+				></span>
+				<span class="visually-hidden">Next</span>
+			</button>
+		</div>
 		<footer class="pie_pagina">
 			<a href="https://www.instagram.com/guinche21.es/" target="_blank">
 				<i class="fa-brands fa-instagram instagram"
@@ -97,5 +107,11 @@
 				></a
 			>
 		</footer>
+
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+			crossorigin="anonymous"
+		></script>
 	</body>
 </html>

@@ -1,24 +1,8 @@
-.gorras_visera {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	margin: 2.4rem 0;
-	text-align: center;
+.contenedores_gorras {
+	height: auto;
+}
 
-	div {
-		margin: 5px;
-		width: 400px;
-
-		h2 {
-			color: wheat;
-			font-weight: bold;
-			text-transform: uppercase;
-			background-color: black;
-		}
-
-		img {
-			width: 300px;
-		}
-	}
+.wallacecream,
+.cream_chica {
+	height: auto;
 }
